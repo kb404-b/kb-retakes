@@ -1,0 +1,12 @@
+{
+  "saved_on": "2026-11-02",
+  "source_commit": "a52a52e3a3cb6a6d7439799f2dbfb48c4aa8f120",
+  "source_publish_date": "2026-10-26",
+  "snapshot_date": "2026-10-23",
+  "tag": "archive-v1-2026-11-02",
+  "files": {
+    "index.html": "3e348006b49eb73aeeab4b72a3ee32b0511047ef5091ee1e10f0f89ffee667df",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  }
+}

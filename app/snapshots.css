@@ -7,6 +7,9 @@ body #dash-root{max-width:1280px;padding-top:28px}
 #v2 .v2-title{font-family:'Fira Sans',system-ui,sans-serif;font-weight:600;font-size:clamp(24px,3vw,34px);letter-spacing:-.035em;margin-top:8px}
 #v2 .v2-top{align-items:flex-end}
 .sut-brand{display:block;width:150px;height:44px;object-fit:contain;object-position:left center;margin-bottom:20px}
+.archive-link{color:var(--color-fg);text-decoration:none}
+.archive-link:hover{text-decoration:underline}
+.archive-link:focus-visible{outline:2px solid var(--acc0);outline-offset:3px}
 .gate .gate__card{box-sizing:border-box;width:min(100%,430px);border-radius:16px;padding:32px}
 .gate .gate__title{font-family:'Fira Sans',system-ui,sans-serif;font-weight:600;letter-spacing:-.03em}
 #v2 .v2-card{border-radius:12px;box-shadow:none}
