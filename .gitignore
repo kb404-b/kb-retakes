@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/data/private/
+/.local/
+/output/
+/tmp/
+/.playwright-mcp/
+/.playwright-cli/
+/node_modules/
