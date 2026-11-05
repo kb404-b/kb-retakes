@@ -7,6 +7,7 @@
   Дата источника позже даты подготовки 02.11.2026 и отмечена для проверки.
 
 [Опубликованная версия](https://kb404-b.github.io/kb-retakes/) ·
+[Голубой и розовый дизайн-макет](https://kb404-b.github.io/kb-retakes/previews/blue-pink/) ·
 [Репозиторий](https://github.com/kb404-b/kb-retakes) ·
 [Карта проекта](docs/PROJECT_CONTEXT.md) · [Сверка источников](docs/SOURCE_REVIEW.md)
 
