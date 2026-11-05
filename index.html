@@ -90,7 +90,14 @@ window.__ENC = {"v": 1, "kdf": "PBKDF2-SHA256", "it": 600000, "salt": "jZHZNEuEc
     <label class="gate__row"><input type="checkbox" id="gate-show"> показать токен</label>
     <button class="gate__btn" id="gate-btn" type="submit">Открыть</button>
     <p class="gate__err" id="gate-err" role="alert"></p>
-    <button class="appearance-toggle" type="button" data-appearance-toggle aria-pressed="false" hidden>Голубой стиль</button>
+    <div class="theme-switch" role="group" aria-label="Тема оформления" hidden>
+      <button type="button" data-set-theme="light" aria-label="Светлая тема" title="Светлая тема" aria-pressed="false">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+      </button>
+      <button type="button" data-set-theme="dark" aria-label="Тёмная тема" title="Тёмная тема" aria-pressed="false">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.9 13.4A9 9 0 0 1 10.6 3.1a9 9 0 1 0 10.3 10.3Z"/></svg>
+      </button>
+    </div>
     <a class="gate__note" href="archive/2026-11-02-v1/" target="_blank" rel="noopener">Открыть сохранённую старую версию</a>
   </form>
 </div>
@@ -244,12 +251,19 @@ window.__ENC = {"v": 1, "kdf": "PBKDF2-SHA256", "it": 600000, "salt": "jZHZNEuEc
 <div class="v2" id="v2" hidden>
   <div class="v2-top">
     <div>
-      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sut-logo-white.svg"><img class="sut-brand" src="assets/sut-logo.svg" alt="СПбГУТ" width="150" height="44"></picture>
+      <img class="sut-brand" src="assets/sut-logo-white.svg" alt="СПбГУТ" width="150" height="44">
       <div class="v2-crumb"><span>Деканат</span><span>›</span><span>Пересдачи, осень 2026</span></div>
       <h1 class="v2-title" id="page-title">Академические задолженности</h1>
     </div>
     <div class="v2-chips">
-      <button class="appearance-toggle" type="button" data-appearance-toggle aria-pressed="false" hidden>Голубой стиль</button>
+      <div class="theme-switch" role="group" aria-label="Тема оформления" hidden>
+        <button type="button" data-set-theme="light" aria-label="Светлая тема" title="Светлая тема" aria-pressed="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        </button>
+        <button type="button" data-set-theme="dark" aria-label="Тёмная тема" title="Тёмная тема" aria-pressed="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.9 13.4A9 9 0 0 1 10.6 3.1a9 9 0 1 0 10.3 10.3Z"/></svg>
+        </button>
+      </div>
       <span class="v2-chip"><i></i>Срез ведомости <b data-source="kpi" data-field="snapshot" data-where="course=all&amp;group=all&amp;bk=all&amp;tr=all">—</b></span>
       <span class="v2-chip">2 среза · осень 2026</span>
       <a class="v2-chip archive-link" href="archive/2026-11-02-v1/" target="_blank" rel="noopener" title="Исходная версия со срезом 23.10.2026">Старая версия</a>
