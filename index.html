@@ -8,6 +8,7 @@
 <title>Пересдачи · Факультет кибербезопасности СПбГУТ</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="icon" href="assets/sut-logo.svg" type="image/svg+xml">
+<script src="app/appearance.js"></script>
 <script src="app/model.js"></script>
 <script src="data/snapshot-next.js"></script>
 <style>
@@ -89,6 +90,7 @@ window.__ENC = {"v": 1, "kdf": "PBKDF2-SHA256", "it": 600000, "salt": "jZHZNEuEc
     <label class="gate__row"><input type="checkbox" id="gate-show"> показать токен</label>
     <button class="gate__btn" id="gate-btn" type="submit">Открыть</button>
     <p class="gate__err" id="gate-err" role="alert"></p>
+    <button class="appearance-toggle" type="button" data-appearance-toggle aria-pressed="false" hidden>Голубой стиль</button>
     <a class="gate__note" href="archive/2026-11-02-v1/" target="_blank" rel="noopener">Открыть сохранённую старую версию</a>
   </form>
 </div>
@@ -238,6 +240,7 @@ window.__ENC = {"v": 1, "kdf": "PBKDF2-SHA256", "it": 600000, "salt": "jZHZNEuEc
 </style>
 
 <link rel="stylesheet" href="app/snapshots.css">
+<link rel="stylesheet" href="app/appearance.css">
 <div class="v2" id="v2" hidden>
   <div class="v2-top">
     <div>
@@ -246,6 +249,7 @@ window.__ENC = {"v": 1, "kdf": "PBKDF2-SHA256", "it": 600000, "salt": "jZHZNEuEc
       <h1 class="v2-title" id="page-title">Академические задолженности</h1>
     </div>
     <div class="v2-chips">
+      <button class="appearance-toggle" type="button" data-appearance-toggle aria-pressed="false" hidden>Голубой стиль</button>
       <span class="v2-chip"><i></i>Срез ведомости <b data-source="kpi" data-field="snapshot" data-where="course=all&amp;group=all&amp;bk=all&amp;tr=all">—</b></span>
       <span class="v2-chip">2 среза · осень 2026</span>
       <a class="v2-chip archive-link" href="archive/2026-11-02-v1/" target="_blank" rel="noopener" title="Исходная версия со срезом 23.10.2026">Старая версия</a>
